@@ -74,7 +74,7 @@ def csv_sort(file_list_csv):            # initiating the function with one param
 file_list = find_files("csv")   # filling a list with csv files
 
 if not file_list:               # if the list is empty there must be no csv files in the directory
-    print("\nΕπελεξε άλλο φάκελο\n")
+    print("\nChoose another folder\n")
 else:       
     csv_sort(file_list)         # sort the files by first column
 
